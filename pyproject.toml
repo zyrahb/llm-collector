@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "llm-collector"
+version = "0.1.0"
+description = "Gemini wrapper"
+authors = ["Zyrah Bernardino <zyrahbernardino@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-generativeai = "^0.8.5"
+google-cloud-bigquery = "^3.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
